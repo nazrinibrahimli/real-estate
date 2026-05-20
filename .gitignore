@@ -1,0 +1,10 @@
+# Mac system junk
+.DS_Store
+
+# Local environments / API Keys
+.env/
+
+# Python caching junk
+**/__pycache__/
+*.pyc
+
