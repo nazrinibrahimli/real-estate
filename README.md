@@ -47,6 +47,5 @@ The pipeline resolves critical statistical boundaries across three consecutive t
 
 * **The Polynomial Paradox:** While polynomial configurations returned deceptively flawless curves (R-squared = 1.0000$), they were systematically rejected. Due to narrow historical temporal resolution, the curves hallucinated an aggressive, economically unviable exponential spike (14.3M TL) out of phase with realistic macro parameters.
 * **Operational Strategy:** The finalized **Weighted Linear Regression** engine prioritizes recent inflation-driven momentum (2024–2025) via a decay weight matrix. It uncovers a concrete **1.47x macro growth coefficient ($G$)**. Rather than assigning a flat projection value universally, this coefficient scales individual property baselines derived from the Stage 1 spatial engine forward through time:
-$$\text{Future Price}_{2026} = \text{Predicted Spatial Baseline}_{2025} \times 1.47$$
----
+$$\text{Future Price}_{2026} = \text{Predicted Spatial Baseline}_{2025} \times 1.47$$---
 
