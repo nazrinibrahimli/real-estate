@@ -28,8 +28,8 @@ The pipeline resolves critical statistical boundaries across three consecutive t
   * **Premium Tier:** High-capital, luxury assets.
 * **Dataset Balancing:** Avoided synthetic up-sampling vulnerabilities (e.g., SMOTE) by processing target splits through **Quantile-based binning**. This forced an exact 33.3% distribution across all three tranches, preventing class bias.
 * **Feature Engineering Breakthrough:** Standard feature inputs baseline models stalled at a 67% accuracy ceiling due to an inability to interpret fluid classification borderlines between Value and Core sectors. To inject contextual intelligence, two specialized interaction terms were engineered:
-  * `Space_Per_Room` ($$\text{Metrekare} / \text{Total\_Rooms}$$): Captures spatial asset density to effectively isolate premium open plans from dense, low-tier layouts.
-  * `Location_Size_Score` ($$\text{Metrekare} \times \text{District\_Score}$$): Weights raw footprint scale directly against structural geographical prestige.
+  * `Space_Per_Room` ($$\text{Metrekare} / \text{Total Rooms}$$): Captures spatial asset density to effectively isolate premium open plans from dense, low-tier layouts.
+  * `Location_Size_Score` ($$\text{Metrekare} \times \text{District Score}$$): Weights raw footprint scale directly against structural geographical prestige.
 * **Algorithm Selection:** Gradient Boosting (XGBoost) was chosen over Random Forest for final production due to its iterative correction of error bounds across fuzzy transition zones. Built-in L1 (Lasso) and L2 (Ridge) penalties acted as a essential mathematical brake against over-indexing.
 * **Validation Performance:** Achieved near-flawless diagonal classification with a **97% overall accuracy / F1-Score**. During **5-Fold Cross-Validation**, the pipeline demonstrated supreme stability, tracking a mean accuracy of **95%** with a minimal standard deviation of **0.04**.
 
